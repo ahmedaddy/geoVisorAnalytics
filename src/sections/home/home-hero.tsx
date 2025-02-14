@@ -105,6 +105,9 @@ export const HomeHero: FC = () => {
               overflow: 'hidden',
               width: '100%',
               fontSize: 0,
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
 
               '& img': {
                 borderTopLeftRadius: (theme) => theme.shape.borderRadius * 2.5,
@@ -114,7 +117,14 @@ export const HomeHero: FC = () => {
               },
             }}
           >
-            <img src={'/assets/main-hero.jpg'} />
+            {/* <img src={'/assets/main-hero.jpg'} /> */}
+            <iframe
+              src="https://map-iota-wheat.vercel.app/"
+              width="800px"
+              height="640px"
+              style={{ border: 'none' }}
+              title="Map"
+            ></iframe>
           </Box>
         </Box>
       </Container>

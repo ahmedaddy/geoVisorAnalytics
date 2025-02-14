@@ -37,7 +37,7 @@ export const blue = withAlphas({
 export const green = withAlphas({
   lightest: '#F6FEF9',
   light: '#EDFCF2',
-  main: '#16B364',
+  main: '#E7BC0D',
   dark: '#087443',
   darkest: '#084C2E',
   contrastText: '#FFFFFF',
